@@ -21,7 +21,6 @@
     <div>${sessionScope.msg}</div>
 
     <input type="button" value="api 호출" id="apiBtn">
-    <a href="/naver/main2"><input type="button" value="api 호출" id="sad"></a>
     <script>
         const apiBtnElem = document.querySelector('#apiBtn');
         apiBtnElem.addEventListener('click',function (e){
