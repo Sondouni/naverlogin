@@ -11,4 +11,5 @@ public interface RetrofitService {
 
     @GET("openapi/tourInfo/food.do")
     Call<IMBodyVO> getICMJList();
+
 }
