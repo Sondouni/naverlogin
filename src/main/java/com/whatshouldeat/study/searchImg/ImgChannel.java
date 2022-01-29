@@ -2,11 +2,13 @@ package com.whatshouldeat.study.searchImg;
 
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.util.List;
 
 @Getter
 @Setter
+@ToString
 public class ImgChannel {
     private String lastBuildDate;
     private int total;
